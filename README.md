@@ -114,7 +114,7 @@ Steps:
 
 1. Load your docker image with image nae of default _pwm/pwm-webapp_:
 ```
-docker load --input=pwm-docker-image-v2.0.0.tar
+docker load --input=pwm-docker-image-2.0.1.tar
 ```
    
 1. Create docker image named _mypwm_, map to the server's 8443 port, and set the config volume to use the server's
